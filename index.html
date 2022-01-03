@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Style+Script&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.min.js.map"></script> -->
+</head>
+<body id="My Awesome Portfolio">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container item-center">
+          <a class="navbar-brand" href="My Awesome Portfolio"><h1>CREATIVE</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MyNavbar">
+              <span class="navbar-toggler-icon"></span>  <!--mobile phone icon-->
+          </button>
+          <div class="collapse navbar-collapse d-flex flex-row-reverse" id="MyNavbar"> <!--will come in collapse mode and create icon for mobile/anyother tablet device-->
+            <ul class="navbar-nav me-center"> <!-- mb-2 mb-lg-0-->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#About">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#Services">SERVICES</a>
+              </li>
+              <li>
+                <a class="nav-link active" href="#Our_Work">BLOG</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="#Contact">Contact</a>
+              </li>
+              <!-- <button class="btn btn-primary" href="#Contact">Contact</button> -->
+            </ul>
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+     <div class="pt-4 pb-4 Home flex item-center" id="Home">
+         <div class="left flex-1" style="padding-left: 1rem;">
+             <img src="img/Zaid.jpeg" style="border-radius: 1rem;">
+         </div>
+         <div class="right d-flex flex-column justify-center">
+             <h2 class="text-center text-center bold-font">Zaid Shaikh</h2>
+             <p class="text-center">THE ODYSSEY OF A WEB DEVELOPER</p>
+             <h1 class="text-center">I'm a Creative <span>Designer</span></h1>
+             <p class="text-center">
+                <h3 class="text-center" style="padding-left: 10px; padding-right: 10px;">I’m a web developer with an art & design background. 
+                    In other words, I went to art school and returned a programmer.
+                </h3>
+             </p>
+             <div class="text-center">
+             <button class="btn btn-secondary text-center"><a href="Zaid Resume.pdf" download>DOWNLOAD CV</a>
+             </button>
+             </div>
+         </div>
+     </div>
+
+     <!--FROM THIS SECTION THE ABOUT IS START-->
+
+
+     <section class="pt-4 pb-4 About d-flex flex-row">
+       <div class="container d-flex justify-left">
+         <img class="about_me_img" src="img/man-2.png" alt="">
+       </div>
+       <div class="text" style="padding-right: 2rem;">
+         <h1 class="text-center bold-font" id="About"> About <span>Me</span></h1>
+         <h3 class="text-center"> Hello I'm Zaid Shaikh. </h3>
+         <p class="text-center">While my focus is mobile-first responsive websites with HTML, JavaScript,  CSS, Python, flask, and MySQL 
+           , I also do bash scripting and Window's server administration.
+           I’ve also worked with bootstrap/flask Studio, Objective-C/Xcode, ActionScript3/Flash (and Haxe), 
+           and C#/Unity3D.</p>
+           <p></p>
+          <p class="text-center">I am always experimenting, always learning, and never bored.</p>
+          <div class="contact-links d-flex justify-content-center">
+            <a href="https://www.facebook.com/zaid.shaikh.9047" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/zaid.shaikh.9047" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/zaid-shaikh-a43a4a209/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/FrankenStien95" target="_blank"><i class="fab fa-github-square"></i></a>
+          </div>
+       </div>
+     </section>
+     <section class="services pt-4 pb-4">
+       <div class="container">
+         <h1 class="section-heading bold-font" id="Services"><span>Our</span> Services</h1>
+         <p> We provide high standar clean websites for your bussiness solution </p>
+         <div class="card-wrapper">
+           <div class="card">
+            <i class="fas fa-pencil-ruler"></i>
+             <h2>Graphic Design</h2>
+             <p> There are many variations of passages of but the majority have suffered alteration in some form. </p>
+           </div>
+           <div class="card">
+            <i class="far fa-file-code"></i>
+             <h2>Web Development</h2>
+             <p> There are many variations of passages of but the majority have suffered alteration in some form. </p>
+           </div>
+           <div class="card">
+            <i class="fab fa-medium"></i>
+             <h2>Media Marketing</h2>
+             <p> There are many variations of passages of but the majority have suffered alteration in some form. </p>
+           </div>
+           <div class="card">
+            <i class="fas fa-fill-drip"></i>
+             <h2>Web Design</h2>
+             <p> There are many variations of passages of but the majority have suffered alteration in some form. </p>
+           </div>
+           <div class="card">
+            <i class="fas fa-exclamation-triangle"></i>
+             <h2>Motion Graphics</h2>
+             <p> There are many variations of passages of but the majority have suffered alteration in some form. </p>
+           </div>
+           <div class="card">
+            <i class="fab fa-apple"></i>
+             <h2>App</h2>
+             <p> There are many variations of passages of but the majority have suffered alteration in some form. </p>
+           </div>
+        </div>
+       </div>
+     </section>
+     <section class="freelancer pt-4 pb-4">
+       <h1 class="text-center bold-font"> I Am Available For Freelancer </h1>
+       <p> We provide high standar clean websites for your bussiness solutions </p>
+       <div>
+          <button class="btn btn-secondary"><a href="Zaid Resume.pdf" download>DOWNLOAD CV</a>
+          </button>
+        </div>
+     </section>
+     <section class="reviews pt-4 pb-4">
+       <div class="container" id="Our_Work">
+         <h1 class="section-heading bold-font"><span>Our</span> Client</h1>
+         <p> We provide high standar clean websites for your bussiness solutions </p>
+         <div class="slider">
+           <div class="slide">
+             <img src="img/lady.png">
+             <p>Thanks to Upflow, we are able to gain real-time visiblity into our
+               customer debt and follow up on unpaid invoices if necessary
+             </p>
+             <span>-John Doel, Company CEO</span>
+           </div>
+           <div class="slide">
+            <img src="img/lady.png">
+            <p>Thanks to Upflow, we are able to gain real-time visiblity into our
+              customer debt and follow up on unpaid invoices if necessary
+            </p>
+            <span>-John Doel, Company CEO</span>
+          </div>
+          <div class="slide">
+            <img src="img/lady.png">
+            <p>Thanks to Upflow, we are able to gain real-time visiblity into our
+              customer debt and follow up on unpaid invoices if necessary
+            </p>
+            <span>-John Doel, Company CEO</span>
+          </div>
+          <div class="slide">
+            <img src="img/lady.png">
+            <p>Thanks to Upflow, we are able to gain real-time visiblity into our
+              customer debt and follow up on unpaid invoices if necessary
+            </p>
+            <span>-John Doel, Company CEO</span>
+          </div>
+         </div>
+         <div class="slider-dots"></div>
+       </div>
+     </section>
+     <section class="work pt-4 pb-4">
+       <div class="container">
+         <h1 class="section-heading bold-font"><span>Our</span> Work</h1>
+         <p> We provide high standar clean websites for your bussiness solutions </p>
+         <div class="card-wrapper">
+           <div class="card">
+             <div class="overlay">
+               <span>Category</span>
+               <a href="https://github.com/FrankenStien95/python_project" target="_blank">Graphic Design</a>
+             </div>
+             <img src="img/article-ph-3.png">
+            </div>
+            <div class="card">
+             <div class="overlay">
+               <span>Category</span>
+               <a href="https://github.com/FrankenStien95/python_project" target="_blank">Web Development</a>
+             </div>
+             <img src="img/ph-2.png">
+            </div>
+            <div class="card">
+             <div class="overlay">
+               <span>Category</span>
+               <a href="#">Media Marketing</a>
+             </div>
+             <img src="img/article-ph-2.png">
+            </div>
+            <div class="card">
+             <div class="overlay">
+               <span>Category</span>
+               <a href="https://github.com/FrankenStien95/python_project">Web Design</a>
+             </div>
+             <img src="img/camera.png">
+            </div>
+            <div class="card">
+             <div class="overlay">
+               <span>Category</span>
+               <a href="#">Motion Graphics</a>
+             </div>
+             <img src="img/article-ph-1.png">
+            </div>
+            <div class="card">
+             <div class="overlay">
+               <span>Category</span>
+               <a href="#">App</a>
+             </div>
+             <img src="img/ph-1.png">
+           </div>
+         </div>
+         <div>
+
+         </div>
+       </div>
+     </section>
+     <section class="contact pt-4 pb-4">
+       <div class="container">
+         <h1 class="section-heading bold-font">Contact <span>Us</span></h1>
+         <p> We provide high standar clean websites for your bussiness solutions </p>
+         <div class="card-wrapper">
+           <div class="card">
+            <i class="fas fa-phone-volume"></i>
+             <!-- <h2> Call Us On</h2> -->
+             <h6> +91 9930464620</h6>
+           </div>
+           <div class="card">
+            <i class="fas fa-envelope-open-text"></i>
+            <!-- <h2> Email Us On</h2> -->
+            <h6> zaidshaikh95@gmail.com </h6>
+          </div>
+          <div class="card">
+            <i class="fas fa-map-marker-alt"></i>
+            <!-- <h2> Visit Office</h2> -->
+            <h6> Jolly Maker 2, Cuffe Parade </h6>
+          </div>
+         </div>
+         <form>
+          <div class="input-wrap" id="Contact">
+            <input type="text" placeholder="Your Name *">
+            <input type="text" placeholder="Your Email *">
+          </div>
+          <div class="input-wrap2">
+            <input type="text" placeholder="Your Subject...">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+          </div>
+          <div class="pt-4">
+            <button class="btn-3"><input type="submit" value=" SEND MESSAGE"></button>
+          </div>
+         </form>
+       </div>
+     </section>
+     
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <footer class="pt-2 pb-2 d-flex flex-row justify-content-between">
+      <img class="footer-logo" style="margin-left:10px" src="img/logo-2.svg">
+      <div class="footer-socials" style="margin-top: 5px; font-size:25px">
+        <a href="#"><i class="fas fa-globe"></i></a>
+        <a href="https://www.facebook.com/zaid.shaikh.9047" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/zaid.shaikh.9047" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/zaid-shaikh-a43a4a209/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="copyright" style="margin-top: 10px; margin-right:10px">
+        Copyright 2021 <i class="far fa-copyright"></i> - Zaid kalim Shaikh. All Right Reserved
+      </div>
+    </footer>
+    <!-- <section class="blog">
+
+      <div class="container">
+        <h1><span>Our</span> Blog</h1>
+        <p> We provide high standar clean websites for your bussiness solutions </p>
+        
+      </div>
+    </section> -->
+  </body>
+</html>
